@@ -2,7 +2,7 @@
 
 Soon this will contain info on how the API works, how to make a widget, etc.
 
-# Roadmap
+## Roadmap
 
  1. Implement basic structure of backend, sensor firmware, and frontend - **v1.0.0**
       - Backend:
