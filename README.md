@@ -29,3 +29,4 @@ Soon this will contain info on how the API works, how to make a widget, etc.
  3. Security fixes - **v1.2.1**
       - Escaping: JSON, MySQL, HTML/React (shouldn't need escaping, but be careful)
       - SQL injection test with sqlmap
+      - Remote all testing code
