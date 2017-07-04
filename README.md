@@ -19,14 +19,15 @@ Soon this will contain info on how the API works, how to make a widget, etc.
         - Allows user to see atom values and edit
         - User configurable dashboard
             - User can choose and customize widgets to display on dashboard
-        
- 2. Proper permission system - **v1.2.0**
-      - Based on 3 tiers: Owner, Can edit, Can view
-        - Tiers inherit permissions from below levels, Edit permssions also gives View permssions. Owner has all 3 permissions
-      - Role system for users: Admin and user
-        - Should be extensible to more roles
-    
- 3. Security fixes - **v1.2.1**
+            
+ 2. Security fixes - **v1.0.1**
       - Escaping: JSON, MySQL, HTML/React (shouldn't need escaping, but be careful)
       - SQL injection test with sqlmap
       - Remote all testing code
+      
+ 3. Proper permission system
+      - Based on 3 tiers: Owner, Can edit, Can view **v1.1.0**
+        - Tiers inherit permissions from below levels, Edit permssions also gives View permssions. Owner has all 3 permissions
+      - Role system for users: Admin and user **v1.0.2**
+        - Should be extensible to more roles
+
