@@ -19,6 +19,7 @@ Soon this will contain info on how the API works, how to make a widget, etc.
         - Allows user to see atom values and edit
         - User configurable dashboard
             - User can choose and customize widgets to display on dashboard
+      - Proper versioning system
             
  2. Security fixes - **v1.0.1**
       - Escaping: JSON, MySQL, HTML/React (shouldn't need escaping, but be careful)
