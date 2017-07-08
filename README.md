@@ -21,14 +21,17 @@ Soon this will contain info on how the API works, how to make a widget, etc.
             - User can choose and customize widgets to display on dashboard
       - Proper versioning system
             
- 2. Security fixes - **v1.0.1**
+ 2. NodeJS rewrite - **v2.0.0**
+      - Use MongoDB and NodeJS
+      - Replace object polling system with WebSockets event based system
+
+ 3. Proper permission system
+      - Based on 3 tiers: Owner, Can edit, Can view **v2.0.1**
+        - Tiers inherit permissions from below levels, Edit permssions also gives View permssions. Owner has all 3 permissions
+      - Role system for users: Admin and user **v2.0.2**
+        - Should be extensible to more roles
+ 
+ 2. Security fixes - **v2.0.3**
       - Escaping: JSON, MySQL, HTML/React (shouldn't need escaping, but be careful)
       - SQL injection test with sqlmap
       - Remote all testing code
-      
- 3. Proper permission system
-      - Based on 3 tiers: Owner, Can edit, Can view **v1.1.0**
-        - Tiers inherit permissions from below levels, Edit permssions also gives View permssions. Owner has all 3 permissions
-      - Role system for users: Admin and user **v1.0.2**
-        - Should be extensible to more roles
-
